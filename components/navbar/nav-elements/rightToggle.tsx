@@ -15,12 +15,9 @@ export function RightToggle() {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <div className="cursor-pointer">
         
         <Button  variant="outline"><SettingIcon/></Button>
-            
-
-        </div>
+          
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
