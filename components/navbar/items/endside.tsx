@@ -1,8 +1,7 @@
-import React from 'react'
-import { RightToggle } from '../nav-elements/rightToggle'
-import { ModeThemeToggle } from '../nav-elements/darkLight'
-import { AvatarPic } from '../nav-elements/avatar'
-import { MenubarDrop } from '../nav-elements/menudrop'
+import React from 'react';
+import { RightToggle } from '../nav-elements/rightToggle';
+import { ModeThemeToggle } from '../nav-elements/darkLight';
+import { MenubarDrop } from '../nav-elements/menudrop';
 
 const EndSideItems = () => {
   return (
