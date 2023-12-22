@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import Image from 'next/image'
-import profimage from "@/public/images/profile.jpg"
+import profimage from "@/public/images/profile.svg"
 
 import { motion } from "framer-motion"
 import { DeleteMyAccount } from '@/tools/alertDiaglog'
