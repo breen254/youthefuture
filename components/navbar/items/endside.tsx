@@ -1,5 +1,4 @@
 import React from 'react';
-import { RightToggle } from '../nav-elements/rightToggle';
 import { ModeThemeToggle } from '../nav-elements/darkLight';
 import { MenubarDrop } from '../nav-elements/menudrop';
 
@@ -11,7 +10,6 @@ const EndSideItems = () => {
       <MenubarDrop />
 
       
-      <RightToggle />
 
 
 
