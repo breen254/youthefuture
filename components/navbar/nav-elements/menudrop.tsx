@@ -13,10 +13,7 @@ import {
     MenubarSubTrigger,
     MenubarTrigger,
   } from "@/components/ui/menubar"
-import { RightToggle } from "./rightToggle"
-import { AvatarPic } from "./avatar"
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
 import { DeleteMyAccount } from "@/tools/alertDiaglog"
   
   export function MenubarDrop() {
