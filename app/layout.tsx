@@ -30,12 +30,13 @@ export default function RootLayout({
           >
             <TopBar /> 
             <div className="flex h-screen ">
-            <section className='hidden md:block left-0 fixed w-[15%] px-2 h-[100vh] border-r  mt-[64px]'>
+            <section className='hidden md:hidden left-0 fixed w-[15%] px-2 h-[100vh] border-r  mt-[64px]'>
               <Card className='p-2 mt-2 border-none shadow-none'>
                 <AccordionLeftbar/>
               </Card>
             </section>
-            <section className='w-full md:ml-[15%] mt-[64px]'>
+            {/* md:ml-[15%] */}
+            <section className='w-full  mt-[64px]'>
 
 
               <Card className="border-none h-[calc(100vh-64px)] shadow-none p-1">

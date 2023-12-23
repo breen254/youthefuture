@@ -18,7 +18,7 @@ const page = () => {
          className="flex items-center justify-center m-10"
       
       >
-        <h1 className="text-nowrap font-extrabold text-9xl capitalize">Why python?</h1>
+        <h1 className="text-nowrap font-extrabold md:text-9xl capitalize">Why python?</h1>
 
       </motion.div>
 
@@ -32,6 +32,19 @@ const page = () => {
       >
         <p>Python an interpreted, object-oriented, high-level programming language used to build websites using web frameworks; flask, django and fastapi</p>
       </motion.div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-5 w-full mx-auto overflow-y-scroll ">
+        <section className="bg-slate-300 border p-10 max-h-fit rounded-lg hover:translate-x-2 duration-500"></section>
+        <section className="bg-slate-300 border p-10 max-h-fit rounded-lg hover:translate-x-2 duration-500">2</section>
+        <section className="bg-slate-300 border p-10 max-h-fit rounded-lg hover:translate-x-2 duration-500">3</section>
+        <section className="bg-slate-300 border p-10 max-h-fit rounded-lg hover:translate-x-2 duration-500">4</section>
+        <section className="bg-slate-300 border p-10 max-h-fit rounded-lg hover:translate-x-2 duration-500">1</section>
+        
+        <section className="bg-slate-300 border p-10 max-h-fit rounded-lg hover:translate-x-2 duration-500">2</section>
+        <section className="bg-slate-300 border p-10 max-h-fit rounded-lg hover:translate-x-2 duration-500">3</section>
+        <section className="bg-slate-300 border p-10 max-h-fit rounded-lg hover:translate-x-2 duration-500">4</section>
+
+      </div>
 
 
 

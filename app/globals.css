@@ -5,6 +5,7 @@
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  
 }
 
 ::-webkit-scrollbar{
@@ -83,3 +84,26 @@
 
 
 
+.bg-gradient-conic {
+  background: conic-gradient(
+      #6d7260 0 25%,
+      #9e5b97 25% 50%,
+      #feefe7 50% 75%,
+      #7d8ac7 75%);
+  background-size: 200% 200%;
+  animation: loadanimate 4.3s ease-in-out infinite;
+}
+@keyframes loadanimate {
+  25% {
+    background-position: 0 100%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
