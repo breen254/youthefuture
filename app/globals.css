@@ -107,3 +107,38 @@
     background-position: 0 0;
   }
 }
+
+@keyframes fall {
+  0% {
+    transform: translateY(-10vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 1;
+  }
+}
+
+.raindrop {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 20px solid #3498db;
+  /* Change the color as needed */
+  animation: fall 3s linear infinite;
+}
+
+
+@keyframes blink {
+  0%,
+  100% {
+    height: 100%;
+  }
+  50% {
+    height: 0;
+  }
+}
+.animate-blink {
+  animation: blink 2.5s infinite;
+}
